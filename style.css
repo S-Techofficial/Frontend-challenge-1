@@ -1,0 +1,78 @@
+.first-line{
+    
+    font-weight: 200;
+}
+h1{
+    line-height: 0.8;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: hsl(234, 12%, 34%);
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    size: 15px;
+    width: 500px;
+    margin: 25px auto;
+    color: hsl(229, 6%, 66%);
+}
+div{
+    height: 200px;
+    width: 300px;
+    margin: auto auto;
+    text-align: left;
+    border-style: outset;
+    border-width: 5px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 30px;
+    border-radius: 2%;
+}
+.supervisor{
+    border-color: hsl(180, 62%, 55%);
+    box-shadow: 0 8px 15px 8px  hsl(229, 6%, 66%);
+    margin-bottom: 10px;
+    position:relative;
+    right:400px;
+    top:200px;
+}
+.team-builder{
+    border-color: hsl(0, 78%, 62%);
+    box-shadow: 0 8px 15px 8px  hsl(229, 6%, 66%);
+    margin-bottom: 35px;
+    position:relative;
+    bottom:230px;
+}
+.karma{
+    border-color: hsl(34, 97%, 64%);
+    box-shadow: 0 8px 15px 8px  hsl(229, 6%, 66%);
+    margin-bottom: 10px;
+    position:relative;
+    bottom:230px;
+}
+.calculator{
+    border-color: hsl(212, 86%, 64%);
+    box-shadow: 0 8px 15px 8px  hsl(229, 6%, 66%);
+    margin-bottom: 10px;
+    position: relative;
+    left:400px;
+    bottom:650px;
+}
+.op{
+    width:300px;
+}
+.icon{
+    position: relative;
+    left:230px; 
+}
+.links{
+    text-decoration: none;
+    color:hsl(229, 6%, 66%);
+}
+div:hover{
+    background-color: hsl(0, 0%, 98%);
+}
